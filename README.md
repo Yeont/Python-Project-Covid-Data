@@ -30,16 +30,27 @@ KEY INSIGHTS FROM FEATURE IMPORTANCE:
 The feature importance plot ranks features like Population, Cases.New, Cases.Active, and Cases.Recovered.
 
 1. Population (Highest Importance)
+   
 Interpretation: The population size plays the most significant role in predicting the number of total deaths. This makes sense, as regions with larger populations tend to have more people at risk, higher healthcare demands, and potentially greater exposure to the virus.
+
 Real-world implication: Areas with high population density should be prioritized for health interventions like vaccination drives, better healthcare infrastructure, and lockdowns to mitigate death tolls.
+
 2. New Cases (Second Highest Importance)
+   
 Interpretation: The number of new cases directly correlates with the potential increase in total deaths. An increase in new cases typically puts pressure on healthcare systems, leading to higher death rates.
+
 Real-world implication: Monitoring new case trends is crucial for predicting death outcomes. A sudden surge in new cases should signal the need for immediate public health measures, such as lockdowns or emergency healthcare deployments.
+
 3. Cases Recovered (Third Highest Importance)
+   
 Interpretation: Interestingly, recovered cases have some impact on predicting deaths. This might suggest that areas with high recovery rates could still have a significant death toll, possibly because deaths are concentrated among those who don't recover quickly or are part of vulnerable groups.
+
 Real-world implication: The presence of recovered cases could indicate how well the healthcare system is managing the disease. However, while it helps understand overall COVID dynamics, it is not as strongly predictive of death rates as new cases or population size.
+
 4. Cases Active (Lowest Importance)
+   
 Interpretation: Active cases contribute the least to predicting total deaths. This might be because active cases are not directly indicative of death outcomes without considering other factors like healthcare quality, severity of illness, or the underlying population health.
+
 Real-world implication: While active cases provide a snapshot of the current situation, they alone don’t give a full picture of the potential death toll. Hence, decision-makers should focus on other factors, such as hospital admissions and ICU bed availability, to gauge death risk.
 
 Overall Insights:
